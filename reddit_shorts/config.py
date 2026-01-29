@@ -43,6 +43,8 @@ for file_name in video_resources: # Renamed 'file' to 'file_name' to avoid confl
     if not file_name.startswith('.DS_Store') and os.path.isfile(file_path): # Added check for file
         footage.append(file_path)
 
+
+
 # CHECK MUSIC FOR COPYRIGHT BEFORE USING
 # music_path str, volumex float float, music_type str
 music = []
