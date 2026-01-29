@@ -89,6 +89,7 @@ def index():
     # The directory is relative to the blueprint's static folder, 
     # or app's static_folder if blueprint has no static_folder.
     # For our setup, Flask should find it in web_ui/static/
+    
     return send_from_directory(main_bp.static_folder, 'index.html')
 
 @main_bp.route('/api/voices', methods=['GET'])
