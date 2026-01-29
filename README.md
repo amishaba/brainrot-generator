@@ -1,5 +1,7 @@
 # TikTok Brainrot Generator
 
+![baconhair](web_ui/static/baconhair.png)
+
 ## Key Features
 
 *   **Web-Based User Interface:** Easily create videos through a user-friendly web page.
